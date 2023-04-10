@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div>
+    <div className='font-manrope'>
       <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>

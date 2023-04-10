@@ -6,7 +6,7 @@ const FeaturedJobs = () => {
   const jobs = useLoaderData();
   // console.log(jobs);
   return (
-    <div className="my-container grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div className="my-container font-Manrope grid grid-cols-1 md:grid-cols-2 gap-6">
       {jobs.map((job) => (
         <JobCard key={job._id} job={job}></JobCard>
       ))}

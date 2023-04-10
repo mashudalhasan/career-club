@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"); */
+
 .my-container {
   @apply px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8;
 }
