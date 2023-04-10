@@ -1,0 +1,56 @@
+[
+  {
+    "jobTitle": "Software Engineer",
+    "companyName": "Google",
+    "location": "Mountain View, CA",
+    "salary": "120K - 150K"
+  },
+  {
+    "jobTitle": "Product Manager",
+    "companyName": "Netflix",
+    "location": "Los Gatos, CA",
+    "salary": "150K - 180K"
+  },
+  {
+    "jobTitle": "Hardware Engineer",
+    "companyName": "Tesla",
+    "location": "Palo Alto, CA",
+    "salary": "130K - 160K"
+  },
+  {
+    "jobTitle": "Frontend Developer",
+    "companyName": "Acme Corporation",
+    "location": "San Francisco, CA",
+    "salary": "100K - 120K"
+  },
+  {
+    "jobTitle": "Software Engineer",
+    "companyName": "Globex Corporation",
+    "location": "New York, NY",
+    "salary": "90K - 110K"
+  },
+  {
+    "jobTitle": "Backend Developer",
+    "companyName": "Initech Inc.",
+    "location": "Austin, TX",
+    "salary": "80K - 100K"
+  },
+  {
+    "jobTitle": "Full Stack Developer",
+    "companyName": "Stark Industries",
+    "location": "Los Angeles, CA",
+    "salary": "110K - 130K"
+  },
+  {
+    "jobTitle": "DevOps Engineer",
+    "companyName": "Wayne Enterprises",
+    "location": "Gotham City, NY",
+    "salary": "120K - 140K"
+  },
+  {
+    "jobTitle": "Data Scientist",
+    "companyName": "Umbrella Corporation",
+    "location": "Raccoon City, IL",
+    "salary": "100K - 120K"
+  }
+]
