@@ -13,7 +13,7 @@ const Header = () => {
           title="HeroGadget"
           className="inline-flex items-center"
         >
-          <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 ">
+          <span className="ml-2 text-xl font-extrabold tracking-wide text-gray-800 ">
             CareerClub
           </span>
         </Link>
@@ -23,7 +23,7 @@ const Header = () => {
               to="/statistics"
               aria-label="Statistics"
               title="Statistics"
-              className={({ isActive }) => (isActive ? "active" : "default")}
+              className={({ isActive }) => (isActive ? "text-purple-500 font-bold" : "text-gray-500 font-semibold")}
             >
               Statistics
             </NavLink>
@@ -33,7 +33,7 @@ const Header = () => {
               to="/jobs"
               aria-label="Applied Jobs"
               title="Applied Jobs"
-              className={({ isActive }) => (isActive ? "active" : "default")}
+              className={({ isActive }) => (isActive ? "text-purple-500 font-bold" : "text-gray-500 font-semibold")}
             >
               Applied Jobs
             </NavLink>
@@ -43,7 +43,7 @@ const Header = () => {
               to="/blog"
               aria-label="Blog"
               title="Blog"
-              className={({ isActive }) => (isActive ? "active" : "default")}
+              className={({ isActive }) => (isActive ? "text-purple-500 font-bold" : "text-gray-500 font-semibold")}
             >
               Blog
             </NavLink>
