@@ -8,7 +8,7 @@ const FeaturedJobs = () => {
   return (
     <div className="my-container mt-32">
       <p className="text-2xl font-bold text-center">Featured Jobs</p>
-      <p className="text-gray-500 text-center mb-8">
+      <p className="text-gray-500 text-center mt-4 mb-8">
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>

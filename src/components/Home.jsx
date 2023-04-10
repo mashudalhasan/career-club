@@ -1,5 +1,5 @@
 import React from "react";
-import coverImage from "../assets/All Images/job-interview-character.jpg";
+import coverImage from "../assets/All Images/employer-choosing-the-best-candidate.jpg";
 import JobCategory from "./JobCategory";
 import FeaturedJobs from "./FeaturedJobs";
 
