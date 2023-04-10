@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        "light-grey": "#E8E8E8",
+      },
       animation: {
         text: "text 5s ease infinite",
       },

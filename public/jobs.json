@@ -1,55 +1,73 @@
 [
   {
+    "_id": "623853b2614ad5aba311fdd1",
     "jobTitle": "Software Engineer",
     "companyName": "Google",
+    "companyLogo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
     "location": "Mountain View, CA",
     "salary": "120K - 150K"
   },
   {
+    "_id": "623853b2614ad5aba311fdd2",
     "jobTitle": "Product Manager",
     "companyName": "Netflix",
+    "companyLogo": "https://www.freepnglogos.com/uploads/netflix-logo-0.png",
     "location": "Los Gatos, CA",
     "salary": "150K - 180K"
   },
   {
+    "_id": "623853b2614ad5aba311fdd3",
     "jobTitle": "Hardware Engineer",
     "companyName": "Tesla",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png",
     "location": "Palo Alto, CA",
     "salary": "130K - 160K"
   },
   {
+    "_id": "623853b2614ad5aba311fdd4",
     "jobTitle": "Frontend Developer",
-    "companyName": "Acme Corporation",
+    "companyName": "Facebook",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png",
     "location": "San Francisco, CA",
     "salary": "100K - 120K"
   },
   {
+    "_id": "623853b2614ad5aba311fdd5",
     "jobTitle": "Software Engineer",
-    "companyName": "Globex Corporation",
+    "companyName": "IBM",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1024px-IBM_logo.svg.png",
     "location": "New York, NY",
     "salary": "90K - 110K"
   },
   {
+    "_id": "623853b2614ad5aba311fdd6",
     "jobTitle": "Backend Developer",
-    "companyName": "Initech Inc.",
+    "companyName": "Twitter",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Twitter_logo.svg/1024px-Twitter_logo.svg.png",
     "location": "Austin, TX",
     "salary": "80K - 100K"
   },
   {
+    "_id": "623853b2614ad5aba311fdd7",
     "jobTitle": "Full Stack Developer",
-    "companyName": "Stark Industries",
+    "companyName": "Uber",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/800px-Uber_logo_2018.svg.png?20180914002846",
     "location": "Los Angeles, CA",
     "salary": "110K - 130K"
   },
   {
+    "_id": "623853b2614ad5aba311fdd8",
     "jobTitle": "DevOps Engineer",
-    "companyName": "Wayne Enterprises",
+    "companyName": "Apple",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1024px-Apple_logo_black.svg.png",
     "location": "Gotham City, NY",
     "salary": "120K - 140K"
   },
   {
+    "_id": "623853b2614ad5aba311fdd9",
     "jobTitle": "Data Scientist",
-    "companyName": "Umbrella Corporation",
+    "companyName": "Microsoft",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png",
     "location": "Raccoon City, IL",
     "salary": "100K - 120K"
   }
