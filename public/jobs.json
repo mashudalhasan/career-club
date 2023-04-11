@@ -5,7 +5,13 @@
     "companyName": "Google LLC",
     "companyLogo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
     "location": "Mountain View, CA",
-    "salary": "120K - 150K"
+    "salary": "120K - 150K",
+    "jobDescription": "Develop and maintain software applications, systems, and services for Google's products and services. Collaborate with cross-functional teams to design and implement scalable and efficient solutions.",
+    "jobResponsibilities": "Write clean, maintainable, and efficient code. Troubleshoot and debug issues. Collaborate with product managers, designers, and other stakeholders to define software requirements. Conduct code reviews and provide feedback.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experience": "Minimum 3 years of relevant experience in software development.",
+    "Phone": "(650) 253-0000",
+    "email": "career@google.com"
   },
   {
     "_id": "623853b2614ad5aba311fdd2",
@@ -13,7 +19,13 @@
     "companyName": "Netflix",
     "companyLogo": "https://www.freepnglogos.com/uploads/netflix-logo-0.png",
     "location": "Los Gatos, CA",
-    "salary": "150K - 180K"
+    "salary": "150K - 180K",
+    "jobDescription": "Define product vision, strategy, and roadmap for Netflix's products. Conduct market research, gather user feedback, and analyze data to inform product decisions. Collaborate with cross-functional teams to drive product development and launch initiatives.",
+    "jobResponsibilities": "Define and prioritize product requirements. Create and maintain product documentation. Coordinate with design and engineering teams to ensure timely delivery of product features. Monitor product performance and iterate on improvements.",
+    "educationalRequirements": "Bachelor's or Master's degree in Business, Computer Science, or related field.",
+    "experience": "Minimum 5 years of relevant experience in product management or related roles.",
+    "Phone": "1-844-505-2993",
+    "email": "info@careers.netflix.com"
   },
   {
     "_id": "623853b2614ad5aba311fdd3",
@@ -21,7 +33,13 @@
     "companyName": "Tesla",
     "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png",
     "location": "Palo Alto, CA",
-    "salary": "130K - 160K"
+    "salary": "130K - 160K",
+    "jobDescription": "Design, develop, and test hardware systems for Tesla's electric vehicles. Collaborate with cross-functional teams to design and optimize hardware components for performance, reliability, and safety.",
+    "jobResponsibilities": "Design and simulate hardware systems. Create and review technical documentation. Conduct testing and validation of hardware components. Collaborate with suppliers and manufacturing teams to ensure successful product launch.",
+    "educationalRequirements": "Bachelor's or Master's degree in Electrical Engineering, Mechanical Engineering, or related field.",
+    "experience": "Minimum 3 years of relevant experience in hardware engineering or related roles.",
+    "Phone": "+1 (781) 575 4238",
+    "email": "jdoe@tesla.com"
   },
   {
     "_id": "623853b2614ad5aba311fdd4",
@@ -29,7 +47,13 @@
     "companyName": "Facebook",
     "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png",
     "location": "San Francisco, CA",
-    "salary": "100K - 120K"
+    "salary": "100K - 120K",
+    "jobDescription": "Develop and maintain user interfaces for Facebook's web and mobile applications. Collaborate with designers and product managers to create visually appealing and user-friendly interfaces. Optimize web pages for performance and responsiveness.",
+    "jobResponsibilities": "Write clean, maintainable, and efficient code. Implement user interface components using HTML, CSS, and JavaScript. Collaborate with back-end developers to integrate front-end and back-end functionality. Conduct code reviews and provide feedback.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Web Development, or related field.",
+    "experience": "Minimum 2 years of relevant experience in frontend development or related roles.",
+    "Phone": "650-308-7837",
+    "email": "hr@fb.com"
   },
   {
     "_id": "623853b2614ad5aba311fdd5",
@@ -37,7 +61,13 @@
     "companyName": "IBM",
     "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1024px-IBM_logo.svg.png",
     "location": "New York, NY",
-    "salary": "90K - 110K"
+    "salary": "90K - 110K",
+    "jobDescription": "Develop and maintain software applications and systems for IBM's products and services. Collaborate with cross-functional teams to design and implement scalable and efficient solutions.",
+    "jobResponsibilities": "Write clean, maintainable, and efficient code. Troubleshoot and debug issues. Collaborate with product managers, designers, and other stakeholders to define software requirements. Conduct code reviews and provide feedback.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experience": "Minimum 3 years of relevant experience in software development.",
+    "Phone": "(914) 499-7777",
+    "email": "careeribm@us.ibm.com"
   },
   {
     "_id": "623853b2614ad5aba311fdd6",
@@ -45,7 +75,13 @@
     "companyName": "Twitter",
     "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Twitter_logo.svg/1024px-Twitter_logo.svg.png",
     "location": "Austin, TX",
-    "salary": "80K - 100K"
+    "salary": "80K - 100K",
+    "jobDescription": "As a Backend Developer at Twitter, you will be responsible for developing and maintaining the backend systems that power the Twitter platform. This includes designing, coding, testing, debugging, and optimizing scalable and high-performance backend services, APIs, and data pipelines. You will work closely with cross-functional teams, including front-end developers, data engineers, and product managers, to deliver innovative solutions and enhance the overall performance and reliability of the Twitter platform.",
+    "jobResponsibilities": "Design and implement scalable and high-performance backend systems, APIs, and data pipelines. Debug and resolve issues in production environments, ensuring the reliability and performance of backend services.Collaborate with cross-functional teams, including front-end developers, data engineers, and product managers, to deliver innovative solutions. Participate in code reviews to ensure code quality, maintainability, and performance. Stay up-to-date with industry trends and best practices in backend development and contribute to technical discussions and decision-making processes. Document technical specifications, architecture, and design decisions. Participate in on-call rotations to provide 24/7 support for production systems.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experience": "At least 3 years of professional experience in backend development, including experience with backend frameworks, databases, and APIs. Experience with distributed systems, performance optimization, and cloud computing is highly desirable.",
+    "Phone": "123-456-7890",
+    "email": "career@twitter.com"
   },
   {
     "_id": "623853b2614ad5aba311fdd7",
@@ -53,7 +89,13 @@
     "companyName": "Uber",
     "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/800px-Uber_logo_2018.svg.png?20180914002846",
     "location": "Los Angeles, CA",
-    "salary": "110K - 130K"
+    "salary": "110K - 130K",
+    "jobDescription": "As a Full-Stack Developer at Uber, you will be responsible for developing end-to-end software solutions that power the Uber platform. This includes designing, coding, testing, debugging, and optimizing both front-end and back-end systems. You will work closely with cross-functional teams, including product managers, designers, and other engineers, to deliver innovative features and enhancements to the Uber app and services.",
+    "jobResponsibilities": "Design and implement scalable and high-performance software solutions, including front-end and back-end components. Collaborate with cross-functional teams, including product managers, designers, and other engineers, to develop new features and enhancements for the Uber app and services.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
+    "experience": "Minimum of 5 years of professional experience in full-stack development, with expertise in technologies such as JavaScript, Node.js, React, Express, and databases such as MongoDB or MySQL.",
+    "Phone": "01506 324 916",
+    "email": "info@uber-recruit.com"
   },
   {
     "_id": "623853b2614ad5aba311fdd8",
@@ -61,7 +103,13 @@
     "companyName": "Apple",
     "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1024px-Apple_logo_black.svg.png",
     "location": "Gotham City, NY",
-    "salary": "120K - 140K"
+    "salary": "120K - 140K",
+    "jobDescription": "As a DevOps Engineer at Apple, you will be responsible for designing, implementing, and maintaining the continuous integration and delivery (CI/CD) pipelines for Apple's software applications and services. You will work closely with development teams to automate build, deployment, and testing processes, and ensure efficient and reliable software releases across multiple environments. You will also troubleshoot and resolve infrastructure and configuration issues, and collaborate with cross-functional teams to drive continuous improvements in software development practices.",
+    "jobResponsibilities": "Design, implement, and maintain CI/CD pipelines for software applications and services. Automate build, deployment, and testing processes. Troubleshoot and resolve infrastructure and configuration issues. Collaborate with development teams and other cross-functional teams to drive continuous improvements in software development practices.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
+    "experience": "Minimum of 3-5 years of professional experience in DevOps, CI/CD, and automation technologies. Strong expertise in tools such as Jenkins, Git, Docker, Kubernetes, and scripting languages such as Python, Bash, or Ruby.",
+    "Phone": "(408) 996 1010",
+    "email": "careers@apple.com"
   },
   {
     "_id": "623853b2614ad5aba311fdd9",
@@ -69,6 +117,12 @@
     "companyName": "Microsoft",
     "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png",
     "location": "Raccoon City, IL",
-    "salary": "100K - 120K"
+    "salary": "100K - 120K",
+    "jobDescription": "As a Data Scientist at Microsoft, you will be responsible for designing, developing, and implementing data-driven solutions to address complex business problems. You will analyze large datasets, build statistical models, and create machine learning algorithms to extract insights and drive actionable recommendations. You will collaborate with cross-functional teams to identify opportunities for data-driven decision-making, and communicate findings to stakeholders. You will also stay updated with the latest developments in data science and machine learning technologies to drive innovation.",
+    "jobResponsibilities": "Design, develop, and implement data-driven solutions to address complex business problems. Analyze large datasets, build statistical models, and create machine learning algorithms. Collaborate with cross-functional teams to identify opportunities for data-driven decision-making. Communicate findings and insights to stakeholders. Stay updated with the latest developments in data science and machine learning technologies.",
+    "educationalRequirements": "Master's or PhD in Computer Science, Statistics, Data Science, or a related field.",
+    "experience": "Minimum of 5-7 years of professional experience in data science, machine learning, and statistical modeling. Strong expertise in programming languages such as Python, R, or Scala. Experience with data visualization tools, big data technologies, and cloud computing platforms such as Azure, AWS, or GCP.",
+    "Phone": "(800) 865-9408",
+    "email": "careers@microsoft.com"
   }
 ]

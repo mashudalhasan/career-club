@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import JobCard from "./JobCard";
 
 const FeaturedJobs = () => {
   const jobs = useLoaderData();
   // console.log(jobs);
+  const [showAllJobs, setShowAllJobs] = useState(false);
+
   return (
     <div className="my-container mt-32">
       <p className="text-2xl font-bold text-center">Featured Jobs</p>
@@ -13,12 +15,17 @@ const FeaturedJobs = () => {
         need. Its your future
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {jobs.map((job) => (
+        {jobs.slice(0, showAllJobs ? jobs.length : 4).map((job) => (
           <JobCard key={job._id} job={job}></JobCard>
         ))}
       </div>
       <div className="text-center mt-10 mb-32">
-        <button className="btn-primary">See All Jobs</button>
+        <button
+          onClick={() => setShowAllJobs(!showAllJobs)}
+          className="btn-primary"
+        >
+          {showAllJobs ? "Hide Jobs" : "See All Jobs"}
+        </button>
       </div>
     </div>
   );
