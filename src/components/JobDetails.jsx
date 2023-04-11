@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import banner1 from "../assets/All Images/Vector-1.png";
 import banner2 from "../assets/All Images/Vector.png";
 import dollarIcon from "../assets/Icons/Frame.png";
@@ -49,20 +49,20 @@ const JobDetails = () => {
         <div className="col-span-2">
           <p>
             <span className="font-bold">Job Description: </span>
-            {jobDescription}
+            <span className="text-gray-500">{jobDescription}</span>
           </p>
           <p className="mt-6 mb-6">
             <span className="font-bold">Job Responsibility: </span>
-            {jobResponsibilities}
+            <span className="text-gray-500">{jobResponsibilities}</span>
           </p>
           <p>
             <span className="font-bold">Educational Requirements: </span>
           </p>
-          <p className="mb-6 mt-4">{educationalRequirements}</p>
+          <p className="mb-6 mt-4 text-gray-500">{educationalRequirements}</p>
           <p>
             <span className="font-bold">Experiences: </span>
           </p>
-          <p className="mt-4">{experience}</p>
+          <p className="mt-4 text-gray-500">{experience}</p>
         </div>
         <div>
           <div className="bg-light-purple rounded-lg p-7">
@@ -70,32 +70,32 @@ const JobDetails = () => {
             <hr className="mt-6" />
             <p className="flex mt-6">
               <img src={dollarIcon} alt="" className="mr-2" />
-              <span className="mr-2">Salary: {salary}</span> Per Month
+              <span className="mr-2 font-semibold">Salary: </span><span className="text-gray-500">{salary} Per Month</span>
             </p>
             <p className="flex mt-4">
               <img src={jobTitleIcon} alt="" className="mr-2" />
-              <span className="mr-2">Job Title: </span>
-              {jobTitle}
+              <span className="mr-2 font-semibold">Job Title: </span>
+              <span className="text-gray-500">{jobTitle}</span>
             </p>
             <p className="text-lg font-bold mt-8">Contact Information</p>
             <hr className="mt-6" />
             <p className="flex mt-6">
               <img src={phoneIcon} alt="" className="mr-2" />
-              <span className="mr-2">Phone: </span>
-              {Phone}
+              <span className="mr-2 font-semibold">Phone: </span>
+            <span className="text-gray-500">{Phone}</span>
             </p>
             <p className="flex mt-4">
               <img src={emailIcon} alt="" className="mr-2" />
-              <span className="mr-2">Email: </span>
-              {email}
+              <span className="mr-2 font-semibold">Email: </span>
+              <span className="text-gray-500">{email}</span>
             </p>
             <p className="flex mt-4">
               <img src={locationImage} alt="" className="mr-2" />
-              <span className="mr-2">Address: </span>
-              {location}
+              <span className="mr-2 font-semibold">Address: </span>
+              <span className="text-gray-500">{location}</span>
             </p>
           </div>
-          <button className="w-full mt-6 btn-primary">Apply Now</button>
+          <Link to='/jobs'><div className="w-full mt-6 btn-primary text-center">Apply Now</div></Link>
         </div>
       </div>
     </div>

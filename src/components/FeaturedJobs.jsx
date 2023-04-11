@@ -4,7 +4,7 @@ import JobCard from "./JobCard";
 
 const FeaturedJobs = () => {
   const jobs = useLoaderData();
-  // console.log(jobs);
+  console.log(jobs);
   const [showAllJobs, setShowAllJobs] = useState(false);
 
   return (
@@ -15,9 +15,13 @@ const FeaturedJobs = () => {
         need. Its your future
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {jobs.slice(0, showAllJobs ? jobs.length : 4).map((job) => (
+        {/* {jobs.slice(0, showAllJobs ? jobs.length : 4).map((job) => (
           <JobCard key={job._id} job={job}></JobCard>
-        ))}
+        ))} */}
+        {Array.isArray(jobs) &&
+          jobs
+            .slice(0, showAllJobs ? jobs.length : 4)
+            .map((job) => <JobCard key={job._id} job={job}></JobCard>)}
       </div>
       <div className="text-center mt-10 mb-32">
         <button
