@@ -4,7 +4,7 @@ import locationImage from "../assets/Icons/location.png";
 import { Link } from "react-router-dom";
 
 const AppliedJobList = ({ job }) => {
-  console.log(job);
+//   console.log(job);
   const {
     jobTitle,
     companyName,

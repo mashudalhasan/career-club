@@ -2,6 +2,13 @@ import React from "react";
 import coverImage from "../assets/All Images/employer-choosing-the-best-candidate.jpg";
 import JobCategory from "./JobCategory";
 import FeaturedJobs from "./FeaturedJobs";
+import { deleteJobCart } from "../Utilities/FakeDB";
+import { toast } from "react-hot-toast";
+
+const getStartedButtonHandler = () => {
+  toast.success("Let's Start Again! 🔥");
+  deleteJobCart();
+}
 
 const Home = () => {
   return (
@@ -17,7 +24,7 @@ const Home = () => {
               you need. Its your future. Come find it. Manage all your job
               application from start to finish.
             </p>
-            <button type="button" className="btn-primary">
+            <button type="button" className="btn-primary" onClick={() => getStartedButtonHandler()}>
               Get Started
             </button>
           </div>
