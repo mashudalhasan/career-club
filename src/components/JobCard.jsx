@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const JobCard = ({ job }) => {
   // console.log(job);
-  const { jobTitle, companyName, companyLogo, location, salary, _id } = job;
+  const { jobTitle, companyName, companyLogo, location, salary, _id, jobLocationType } = job;
 
   
   return (
@@ -14,16 +14,16 @@ const JobCard = ({ job }) => {
       <p className="mt-8 mb-2 font-bold text-gray-900">{jobTitle}</p>
       <p className="text-gray-500">{companyName}</p>
       <div className="flex justify-start items-center gap-4">
-        <div className="btn-outlined">Remote</div>
+        <div className="btn-outlined">{jobLocationType}</div>
         <div className="btn-outlined">Full Time</div>
       </div>
       <div className="flex justify-start items-center gap-6 mb-4">
         <p className="inline-flex -ml-1">
-          <img src={locationIcon} alt="" />{" "}
+          <img src={locationIcon} alt="" />
           <span className="text-gray-500">{location}</span>
         </p>
         <p className="inline-flex -ml-1">
-          <img className="filter grayscale" src={dollarIcon} alt="" />{" "}
+          <img className="filter grayscale" src={dollarIcon} alt="" />
           <span className="text-gray-500">{salary}</span>
         </p>
       </div>

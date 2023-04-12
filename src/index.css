@@ -11,7 +11,7 @@
 }
 
 .btn-outlined {
-  @apply font-medium px-4 py-2 my-4 text-base rounded text-violet-500 border-2 border-purple-200;
+  @apply font-medium px-4 py-2 my-2 text-base rounded text-violet-500 border-2 border-purple-200;
 }
 
 .bg-btn-purple {

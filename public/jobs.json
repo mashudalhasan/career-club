@@ -11,7 +11,8 @@
     "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
     "experience": "Minimum 3 years of relevant experience in software development.",
     "Phone": "(650) 253-0000",
-    "email": "career@google.com"
+    "email": "career@google.com",
+    "jobLocationType": "Remote"
   },
   {
     "_id": "623853b2614ad5aba311fdd2",
@@ -25,7 +26,8 @@
     "educationalRequirements": "Bachelor's or Master's degree in Business, Computer Science, or related field.",
     "experience": "Minimum 5 years of relevant experience in product management or related roles.",
     "Phone": "1-844-505-2993",
-    "email": "info@careers.netflix.com"
+    "email": "info@careers.netflix.com",
+    "jobLocationType": "Onsite"
   },
   {
     "_id": "623853b2614ad5aba311fdd3",
@@ -39,7 +41,8 @@
     "educationalRequirements": "Bachelor's or Master's degree in Electrical Engineering, Mechanical Engineering, or related field.",
     "experience": "Minimum 3 years of relevant experience in hardware engineering or related roles.",
     "Phone": "+1 (781) 575 4238",
-    "email": "jdoe@tesla.com"
+    "email": "jdoe@tesla.com",
+    "jobLocationType": "Remote"
   },
   {
     "_id": "623853b2614ad5aba311fdd4",
@@ -53,7 +56,8 @@
     "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Web Development, or related field.",
     "experience": "Minimum 2 years of relevant experience in frontend development or related roles.",
     "Phone": "650-308-7837",
-    "email": "hr@fb.com"
+    "email": "hr@fb.com",
+    "jobLocationType": "Onsite"
   },
   {
     "_id": "623853b2614ad5aba311fdd5",
@@ -67,7 +71,8 @@
     "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
     "experience": "Minimum 3 years of relevant experience in software development.",
     "Phone": "(914) 499-7777",
-    "email": "careeribm@us.ibm.com"
+    "email": "careeribm@us.ibm.com",
+    "jobLocationType": "Remote"
   },
   {
     "_id": "623853b2614ad5aba311fdd6",
@@ -81,7 +86,8 @@
     "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
     "experience": "At least 3 years of professional experience in backend development, including experience with backend frameworks, databases, and APIs. Experience with distributed systems, performance optimization, and cloud computing is highly desirable.",
     "Phone": "123-456-7890",
-    "email": "career@twitter.com"
+    "email": "career@twitter.com",
+    "jobLocationType": "Remote"
   },
   {
     "_id": "623853b2614ad5aba311fdd7",
@@ -95,7 +101,8 @@
     "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
     "experience": "Minimum of 5 years of professional experience in full-stack development, with expertise in technologies such as JavaScript, Node.js, React, Express, and databases such as MongoDB or MySQL.",
     "Phone": "01506 324 916",
-    "email": "info@uber-recruit.com"
+    "email": "info@uber-recruit.com",
+    "jobLocationType": "Onsite"
   },
   {
     "_id": "623853b2614ad5aba311fdd8",
@@ -109,7 +116,8 @@
     "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
     "experience": "Minimum of 3-5 years of professional experience in DevOps, CI/CD, and automation technologies. Strong expertise in tools such as Jenkins, Git, Docker, Kubernetes, and scripting languages such as Python, Bash, or Ruby.",
     "Phone": "(408) 996 1010",
-    "email": "careers@apple.com"
+    "email": "careers@apple.com",
+    "jobLocationType": "Onsite"
   },
   {
     "_id": "623853b2614ad5aba311fdd9",
@@ -123,6 +131,7 @@
     "educationalRequirements": "Master's or PhD in Computer Science, Statistics, Data Science, or a related field.",
     "experience": "Minimum of 5-7 years of professional experience in data science, machine learning, and statistical modeling. Strong expertise in programming languages such as Python, R, or Scala. Experience with data visualization tools, big data technologies, and cloud computing platforms such as Azure, AWS, or GCP.",
     "Phone": "(800) 865-9408",
-    "email": "careers@microsoft.com"
+    "email": "careers@microsoft.com",
+    "jobLocationType": "Remote"
   }
 ]

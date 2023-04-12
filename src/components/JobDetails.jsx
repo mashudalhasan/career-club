@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
 import banner1 from "../assets/All Images/Vector-1.png";
 import banner2 from "../assets/All Images/Vector.png";
 import dollarIcon from "../assets/Icons/Frame.png";
@@ -7,24 +7,29 @@ import locationImage from "../assets/Icons/location.png";
 import jobTitleIcon from "../assets/Icons/title.png";
 import phoneIcon from "../assets/Icons/phone.png";
 import emailIcon from "../assets/Icons/mail.png";
+import { addToDb } from "../Utilities/FakeDB";
 
 const JobDetails = () => {
   const { _id } = useParams();
-  //   console.log(id);
+  console.log(_id);
 
   const featuredData = useLoaderData();
+  // console.log(featuredData);
 
   const [jobDetails, setJobDetails] = useState({});
 
   useEffect(() => {
+    // console.log(featuredData);
+    // Check if featuredData is truthy
     if (featuredData) {
-      // Check if featuredData is truthy
-      const jobData = featuredData.find((feature) => feature.id === _id);
+      // console.log(featuredData);
+      const jobData = featuredData.find(feature => feature._id == _id);
       setJobDetails(jobData);
+      console.log(jobData);
     }
   }, [featuredData, _id]); // Include featuredData and id in the dependencies array
 
-  //   console.log(jobDetails);
+  console.log(jobDetails);
   const {
     jobTitle,
     companyName,
@@ -37,6 +42,11 @@ const JobDetails = () => {
     Phone,
     email,
   } = jobDetails;
+
+  const applyNowButtonHandler = () => {
+    addToDb(jobDetails._id);
+    console.log("Clicked on Apply Now with id:", jobDetails._id);
+  };
 
   return (
     <div className="mb-32">
@@ -70,7 +80,8 @@ const JobDetails = () => {
             <hr className="mt-6" />
             <p className="flex mt-6">
               <img src={dollarIcon} alt="" className="mr-2" />
-              <span className="mr-2 font-semibold">Salary: </span><span className="text-gray-500">{salary} Per Month</span>
+              <span className="mr-2 font-semibold">Salary: </span>
+              <span className="text-gray-500">{salary} Per Month</span>
             </p>
             <p className="flex mt-4">
               <img src={jobTitleIcon} alt="" className="mr-2" />
@@ -82,7 +93,7 @@ const JobDetails = () => {
             <p className="flex mt-6">
               <img src={phoneIcon} alt="" className="mr-2" />
               <span className="mr-2 font-semibold">Phone: </span>
-            <span className="text-gray-500">{Phone}</span>
+              <span className="text-gray-500">{Phone}</span>
             </p>
             <p className="flex mt-4">
               <img src={emailIcon} alt="" className="mr-2" />
@@ -95,7 +106,12 @@ const JobDetails = () => {
               <span className="text-gray-500">{location}</span>
             </p>
           </div>
-          <Link to='/jobs'><div className="w-full mt-6 btn-primary text-center">Apply Now</div></Link>
+          <button
+            onClick={() => applyNowButtonHandler()}
+            className="w-full mt-6 btn-primary"
+          >
+            Apply Now
+          </button>
         </div>
       </div>
     </div>
