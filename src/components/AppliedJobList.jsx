@@ -12,9 +12,10 @@ const AppliedJobList = ({ job }) => {
     location,
     salary,
     jobLocationType,
+    _id
   } = job;
   return (
-    <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center gap-3 lg:gap-5 border-2 border-gray-300 rounded-lg w-full lg:w-3/4 mx-auto py-4 pl-4 pr-6 lg:py-8 lg:pl-8 lg:pr-12">
+    <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center gap-3 lg:gap-5 border-2 border-gray-300 rounded-lg w-full lg:w-3/4 mx-auto py-4 pl-4 pr-6 lg:py-8 lg:pl-8 lg:pr-12 mb-6">
       <div className="flex justify-center items-center w-20 h-14 lg:w-36 lg:h-36 rounded-lg bg-gray-200">
         <img src={companyLogo} alt="" className="w-1/2 mx-auto" />
       </div>
@@ -37,7 +38,7 @@ const AppliedJobList = ({ job }) => {
           </p>
         </div>
       </div>
-      <button className="btn-primary">View Details</button>
+      <Link to={`/featuredJobs/${_id}`}><button className="btn-primary">View Details</button></Link>
     </div>
   );
 };

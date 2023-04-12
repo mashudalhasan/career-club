@@ -8,28 +8,30 @@ import jobTitleIcon from "../assets/Icons/title.png";
 import phoneIcon from "../assets/Icons/phone.png";
 import emailIcon from "../assets/Icons/mail.png";
 import { addToDb } from "../Utilities/FakeDB";
+import { toast } from "react-hot-toast";
 
 const JobDetails = () => {
   const { _id } = useParams();
-  console.log(_id);
+  // console.log(_id);
 
   const featuredData = useLoaderData();
   // console.log(featuredData);
 
   const [jobDetails, setJobDetails] = useState({});
+  const [applyCount, setApplyCount] = useState(0);
 
   useEffect(() => {
     // console.log(featuredData);
     // Check if featuredData is truthy
     if (featuredData) {
       // console.log(featuredData);
-      const jobData = featuredData.find(feature => feature._id == _id);
+      const jobData = featuredData.find((feature) => feature._id == _id);
       setJobDetails(jobData);
-      console.log(jobData);
+      // console.log(jobData);
     }
   }, [featuredData, _id]); // Include featuredData and id in the dependencies array
 
-  console.log(jobDetails);
+  // console.log(jobDetails);
   const {
     jobTitle,
     companyName,
@@ -44,15 +46,22 @@ const JobDetails = () => {
   } = jobDetails;
 
   const applyNowButtonHandler = () => {
+    if (applyCount === 0) {
+      // Show success toast for the first time
+      toast.success("Successfully Applied! ✅");
+    } else {
+      // Show error toast from second time onwards
+      toast.error("Already Applied! ❌");
+    }
     addToDb(jobDetails._id);
-    console.log("Clicked on Apply Now with id:", jobDetails._id);
+    setApplyCount(applyCount + 1);
   };
 
   return (
     <div className="mb-32">
       <div className="flex h-36 justify-between items-center bg-light-purple -mt-20">
         <img className="w-1/3 md:w-1/4 lg:w-1/6" src={banner2} alt="" />
-        <p className="text-2xl font-bold text-center">Job Details</p>
+        <p className="text-2xl font-bold text-center">Applied Jobs</p>
         <img className="w-1/3 md:w-1/4 lg:w-1/6" src={banner1} alt="" />
       </div>
       <div className="my-container mt-32 grid grid-cols-1 md:grid-cols-3 justify-between items-center gap-10">
