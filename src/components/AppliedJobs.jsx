@@ -5,7 +5,6 @@ import AppliedJobList from "./AppliedJobList";
 import banner1 from "../assets/All Images/Vector-1.png";
 import banner2 from "../assets/All Images/Vector.png";
 import { toast } from "react-hot-toast";
-import FilterMenu from "./FilterMenu";
 
 const AppliedJobs = () => {
   const appliedData = useLoaderData();
